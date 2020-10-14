@@ -21,7 +21,7 @@ body {
   width: 400px;
 }
 
-h2 {
+h1 {
   text-align: center;
   margin: 0 0 20px;
 }
@@ -33,7 +33,6 @@ h2 {
 .form-control {
   margin-bottom: 10px;
   padding-bottom: 20px;
-  position: relative;
 }
 
 .form-control label {
@@ -45,9 +44,8 @@ h2 {
 .form-control input {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
-  display: block;
-  width: 100%;
   padding: 10px;
+  width: 100%;
   font-size: 14px;
 }
 
@@ -56,15 +54,16 @@ h2 {
   border-color: #777;
 }
 
-.form button {
-  cursor: pointer;
+button {
   background-color: #3498db;
-  border: 2px solid #3498db;
-  border-radius: 4px;
   color: white;
   display: block;
-  font-size: 16px;
-  padding: 10px;
-  margin-top: 20px;
+  border-radius: 4px;
+  border: 2px solid #3498db;
   width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: 0;
 }
